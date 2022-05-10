@@ -30,8 +30,8 @@ print(Box.Lines("Menu - natrix TikTok tool "))
 
 
 
-VideoURI     = str(Write.Input("Video Link > ", Colors.yellow_to_red, interval=0.0001))
-amount       = int(Write.Input("Amount (0=inf) > ", Colors.yellow_to_red, interval=0.0001))
+VideoURI   = str(Write.Input("https://www.tiktok.com/@ily4everrrr__/video/7096220152563240197?is_copy_url=1&is_from_webapp=v1&lang=en > ", Colors.yellow_to_red, interval=0.0001))
+amount       = int(Write.Input("Amount (1564=inf) > ", Colors.yellow_to_red, interval=0.0001))
 sendType     = int(Write.Input("[1] - Lancer le bot > ", Colors.yellow_to_red, interval=0.0001)); 
 view_bot = sendType=0
 share_bot = sendType=1
